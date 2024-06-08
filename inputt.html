@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Information Form</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Child Information Form</h1>
+        <form>
+            <div class="form-group">
+                <label for="child-weight">Child Weight (kg):</label>
+                <input type="number" id="child-weight" name="child-weight" required>
+            </div>
+            <div class="form-group">
+                <label for="child-height">Child Height (cm):</label>
+                <input type="number" id="child-height" name="child-height" required>
+            </div>
+            <div class="form-group">
+                <label for="child-sex">Sex of Child:</label>
+                <select id="child-sex" name="child-sex" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="drinking-water">Source of Drinking Water:</label>
+                <select id="drinking-water" name="drinking-water" required>
+                    <option value="improved">Improved</option>
+                    <option value="unimproved">Unimproved</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="toilet-facility">Toilet Facility:</label>
+                <select id="toilet-facility" name="toilet-facility" required>
+                    <option value="improved">Improved</option>
+                    <option value="unimproved">Unimproved</option>
+                    <option value="no-facility">No Facility</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="area">Area:</label>
+                <select id="area" name="area" required>
+                    <option value="urban">Urban</option>
+                    <option value="rural">Rural</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="wealth-index">Wealth Index:</label>
+                <input type="number" id="wealth-index" name="wealth-index" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
